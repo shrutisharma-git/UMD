@@ -1,2 +1,22 @@
+# Node
 node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env
 .env
+
+# Builds
+dist/
+build/
+
+# Media / downloads
+*.mp4
+*.webm
+*.mp3
+src/downloads/
+backend/src/downloads/
+
+# OS
+.DS_Store
+Thumbs.db

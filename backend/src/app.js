@@ -8,10 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// test route
-app.get("/", (req,res)=>{
-    res.send("Backend running");
-});
 
 app.use("/api", downloadRoutes);
 
